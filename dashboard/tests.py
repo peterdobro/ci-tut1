@@ -1,4 +1,5 @@
-from django.test import SimpleTestCase, Client
+from django.test import Client, SimpleTestCase
+
 
 class DashboardRoutingTests(SimpleTestCase):
     def setUp(self):

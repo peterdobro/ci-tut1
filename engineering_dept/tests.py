@@ -1,5 +1,6 @@
-from django.test import SimpleTestCase
 from django.apps import apps
+from django.test import SimpleTestCase
+
 
 class EngineeringConfigTests(SimpleTestCase):
     def test_app_is_registered(self):

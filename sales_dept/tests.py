@@ -1,10 +1,11 @@
 from django.test import SimpleTestCase
 
+
 class SalesLogicTests(SimpleTestCase):
     def test_math_library_available(self):
         """Sales dashboard requires numpy for calculations"""
         try:
-            import numpy
+            import numpy  # noqa: F401
             imported = True
         except ImportError:
             imported = False
